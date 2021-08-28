@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    double a, b;
+    cout << "Hi, Program for comparing numbers :)" << endl;
+    cout << endl;
+
+    cout << "Please, entered first number - ";
+    cin >> a;
+    cout << "Please, entered second number - ";
+    cin >> b;
+    if (a>b)
+    {
+        cout << a << " > " << b <<endl;
+        cout << a << " is max than " << b <<endl;
+        return a;
+    }
+
+    else if (b>a)
+    {
+        cout << b << " > " << a <<endl;
+        cout << b << " is max than " << a <<endl;
+        return b;
+    }
+    else
+    {
+        cout << "Wrong! Try again..."<<endl;
+    }
+
+    return 0;
+}
